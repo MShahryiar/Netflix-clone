@@ -1,0 +1,7 @@
+body{
+    background-color: rgb(83, 3, 3);
+}
+
+.homeScreen > h1,h2{
+    color: wheat;
+}
