@@ -1,13 +1,36 @@
 import React from 'react';
 import './HomeScreen.css';
+import Nav from './Nav';
 
 function HomeScreen() {
   return (
     <div className='homeScreen'>
-        <h1>Let's build Netflix</h1>
-        <div>
-            <h2>Navbar</h2>
-        </div>
+        <Nav/>
+        <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            v
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
+            <h1>Test for scroll</h1>
         <div>
             <h2>Banner</h2>
         </div>
