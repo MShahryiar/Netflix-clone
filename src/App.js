@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 import './App.css';
+
 import HomeScreen from './screens/HomeScreen';
+import ProfileScreen from './screens/ProfileScreen';
+
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import LoginScreen from './screens/LoginScreen';
 import { auth } from './firebaseHandler';
@@ -24,13 +27,13 @@ function App() {
       }
       else{
         // Logged Out
-        dispatch(logout);
+        dispatch(logout());
       }
     })
 
     return unsubscribe;
 
-  },[]);
+  },[dispatch]);
 
   
   return (
@@ -43,6 +46,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<HomeScreen/>}/>
+          <Route path="/profile" element={<ProfileScreen/>}/>
         </Routes>
         )
       

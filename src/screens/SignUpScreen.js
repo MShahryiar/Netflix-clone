@@ -8,8 +8,7 @@ function SignUpScreen() {
   const passwordRef = useRef(null);
   
   const register = (e) => { 
-    e.preventDefault();
-    
+    e.preventDefault();   
     
     createUserWithEmailAndPassword(auth, emailRef.current.value, passwordRef.current.value)           
           .then((authUser)=>{
